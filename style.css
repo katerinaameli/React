@@ -1,0 +1,83 @@
+.header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header{
+    text-align: center;
+    background-color: rgb(180, 223, 224);
+    border-radius: 15px;
+}
+
+body {
+    background-color: #77b9aa;
+    margin: 0 auto;
+    max-width: 60%;
+    
+}
+.tasks{
+    display: flex;
+    align-items: center;
+}
+.task_elem{
+    background-color: #e5f7f4;
+    border-bottom: 2px dotted #000000;
+    font-size: 20px;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.description{
+    color:#424242;
+}
+.main{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+footer{
+    background-color: rgb(180, 223, 224);
+    height: 20px;
+    border-radius: 15px;
+    
+}
+h5{
+    text-align: center;
+}
+
+.radio_button{
+    text-align: center;
+}
+
+.done {
+    display: none;
+}
+
+.show-done .done {
+    display: block;
+}
+
+.done .task_name{
+    text-decoration: line-through;
+    color: lightgray;
+}
+form{
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+form input{
+    border-radius: 10px;
+    text-align: center;
+    height: 25px;
+    font-size: medium;
+    
+    
+}
+
+form button{
+    border-radius: 5px ;
+    margin-top: 10px;
+}

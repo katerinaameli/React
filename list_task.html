@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<header>
+    <h1>My ToDoList</h1 >
+</header>
+
+<body>
+
+    <div class="radio_button">
+        <input class="check" type="checkbox" id="checkbox" value="done">
+        <label for="checkbox">Show</label>
+
+    </div>
+    <form id="new_task">
+
+        <input type="text" name="name" placeholder="Task name" required>
+        <input type="date" name="due_date" placeholder="Deadline">
+        <input type="text" name="description" placeholder="Description">
+        <button type="submit"> Save Task</button>
+    </form>
+    <div class="main" id="tasks"></div>
+    
+    
+    <script src="outputtasks.js"></script>
+
+</body>
+<footer>
+    <h5> something about my work </h5>
+</footer>
+
+</html>
